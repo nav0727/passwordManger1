@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+  width: 40vw;
+  padding: 20px;
+}
+.div-container {
+  background-color: #ffffff;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+}
+.ulList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon {
+  border: 1px;
+  margin: 10px;
+  height: 40px;
+}
+.btn {
+  align-items: flex-end;
+  background-color: #0b69ff;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+@media screen and (min-width: 901px) {
+  .sm {
+    display: none;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.sm {
+  height: 200px;
+  width: 200px;
+}
+@media (max-width: 901px) {
+  .lg {
+    display: none;
+    height: 300px;
+    width: 300px;
+  }
+}
+.lg {
+  height: 300px;
+  width: 300px;
+}
+
+input:hover {
+  border: none;
+  outline: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+
+.bg-con {
+  display: flex;
+  justify-content: space-around;
+  background-color: #454f84;
+  width: 80vw;
+  min-height: 50vh;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+.bt1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+hr {
+  width: 100%;
+}
+* {
+  font-size: 25px;
+}
+
+.cont {
+  width: 80vw;
+  margin-top: 15px;
+  background-color: #454f84;
+  min-height: 40vh;
+  border-radius: 8px;
+  padding: 20px 30px;
+}
+.btn1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image1 {
+  height: 250px;
+}
+@media screen and (max-width: 901px) {
+  .image1 {
+    height: 400px;
+  }
+}

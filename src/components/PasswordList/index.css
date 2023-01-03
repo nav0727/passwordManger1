@@ -1,0 +1,33 @@
+.cont {
+  width: 80vw;
+  margin-top: 15px;
+  background-color: #454f84;
+  min-height: 40vh;
+  border-radius: 8px;
+  padding: 20px 30px;
+}
+.btn1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.lis-con {
+  display: flex;
+  border: 1px solid;
+  align-items: center;
+  list-style-type: none;
+  margin: 10px;
+  justify-content: space-between;
+}
+.btn1 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.bgColor {
+  padding-left: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-color: green;
+}
